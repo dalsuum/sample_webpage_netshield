@@ -9,57 +9,59 @@
     <title><?php echo $pageTitle; ?></title>
 </head>
 <body>
-     <!--Header-->
+    <!--Header-->
  <header>
-    <!-- Logo -->
-    <div id=logo>
-        <img src="img/logo.png" alt="logo">
-    </div>
-    
     <!--Navigation Bar-->
-    <div class="navigation_div">
-        <ul class="navigation_menu">
-            <li class="home <?php if ($section == "home") {echo "on";}?>">
-                <a href="/web/index.php?id=home">Home</a>    
-            </li>
-            <li class="devops <?php if ($section == "devops") {echo "on";}?>">
-                <a href="/web/index.php?id=devops">DevOps</a>
-            </li>
-            <li class="systemadministrator <?php if ($section == "system administrator") {echo "on";}?>">
-                <a href="/web/index.php?id=system administrator">SysAdmin</a>
-            </li>
-            <li class="about">
-                <a href="/web/about.php">About</a>
-            </li>
-            <li class="contact">
-                <a href="/web/contact.php">Contact</a>
-            </li>
-        </ul>
-        
-        <ul class="navigation_menu2">
+    <div class="container navigation_container">  <!-- Navigation_container_start -->
+        <div class="row"><!-- Navigation_row_start -->
             
-            <li class="singin">
-                <a href="/web/singin.php">Singin</a>
-            </li>
-            <li class="singout">
-                <a href="/web/singout.php">Singout</a>
-            </li>
-            <li class="singup">
-                <a href="/web/singup.php">Singup</a>
-            </li>
-            <li class="search">
-                <form action="#" method="POST">
-                    <input type="search" id="search_input" name ="search_input" placeholder="Enter Search">
-                    <input type="button" id="search_button" name="search_button" value="search">
-                </form>
-            </li>
-        </ul>   
-       
-        
-        
-        <div class="clear"></div> 
-    </div>
+            <div class="col-md-5 navigation_left"><!-- Navigation_left_start -->
+                <ul class="navigation_left_menu">
+                    <li class="home <?php if ($section == "home") {echo "on";}?>">
+                        <a href="/web/index.php?id=home">Home</a>    
+                    </li>
+                    <li class="devops <?php if ($section == "devops") {echo "on";}?>">
+                        <a href="/web/index.php?id=devops">DevOps</a>
+                    </li>
+                    <li class="systemadministrator <?php if ($section == "system administrator") {echo "on";}?>">
+                        <a href="/web/index.php?id=system administrator">System</a>
+                    </li>
+                    <li class="about">
+                        <a href="/web/about.php">About</a>
+                    </li>
+                    <li class="contact">
+                        <a href="/web/contact.php">Contact</a>
+                    </li>
+                </ul>
+            </div> <!-- navigation_left_end -->
 
-    <!-- Search Bar -->
-    
+            <div class="col-md-2 navagation_logo"> <!-- navigation_icon_start -->
+                    <img src="img/logo.png" alt="logo">
+            </div> <!-- navigation_icon_end -->
+
+            <div class="col-md-5 navigation_right">
+                <ul class="navigation_right_menu">
+                    
+                    <li class="singin">
+                        <a href="/web/singin.php">Singin</a>
+                    </li>
+                    <li class="singout">
+                        <a href="/web/singout.php">Singout</a>
+                    </li>
+                    <li class="singup">
+                        <a href="/web/singup.php">Singup</a>
+                    </li>
+                    <li class="search">
+                        <form action="#" method="POST">
+                            <input type="search" id="search_input" name ="search_input" placeholder="Enter Search">
+                            <input type="button" id="search_button" name="search_button" value="search">
+                        </form>
+                    </li>
+                </ul>   
+            </dv><!-- navigation_right_end -->
+        </div><!-- row_end -->
+    </div><!-- container_end -->
+
+    <!-- Clear Line -->
+    <div class="clear"></div> 
 </header>
