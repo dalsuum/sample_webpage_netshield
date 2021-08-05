@@ -1,5 +1,6 @@
 <?php 
     $pageTitle = "Recovering Password";
+    $section = "forgotpassword";
     include("include/header.php"); ?>
 
 <h2>Welcome <?php echo $pageTitle; ?></h2>        

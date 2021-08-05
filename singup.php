@@ -1,5 +1,6 @@
 <?php 
     $pageTitle = "Singup";
+    $section = "singup";
     include("include/header.php"); ?>
 
 <h2>Welcome <?php echo $pageTitle; ?></h2>        

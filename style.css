@@ -20,7 +20,7 @@ header{
   padding:10px;  
 }
 .navigation_logo img{
-  
+  padding: 10px;
   max-height: 50px;
   max-width: 50px;
 }

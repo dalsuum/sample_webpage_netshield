@@ -1,5 +1,6 @@
 <?php 
     $pageTitle = "Singout";
+    $section = "singout";
     include("include/header.php"); ?>
 
 <h2>Welcome <?php echo $pageTitle; ?></h2>        

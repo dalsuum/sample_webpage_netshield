@@ -1,6 +1,7 @@
 
 <?php 
     $pageTitle = "Contact";
+    $section = "contact";
     include("include/header.php"); ?>
 
 <h2>Welcome <?php echo $pageTitle; ?></h2>        
