@@ -36,7 +36,7 @@
             </div> <!-- navigation_left_end -->
 
             <div class="col-md-2 navagation_logo"> <!-- navigation_icon_start -->
-                    <a href="/web"><img class="home <?php if ($section == "home") {echo "off";}?>" src="img/icon.ico" alt="logo"></a>
+                    <a href="/web"><img src="img/icon.ico" alt="logo"></a>
             </div> <!-- navigation_icon_end -->
 
             <div class="col-md-5 navigation_right">
