@@ -33,6 +33,9 @@
             </div>
             <div class="col-md-4">
                 <div class="content_div">
+                    <p>
+                        <a href="https://stackoverflow.com/questions/57743633/how-do-you-add-a-navigation-bar-on-the-same-line-as-a-header">Nav bar add in same header</a>
+                    </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, magni aperiam! Qui voluptatum sint, quod nisi molestiae corrupti commodi esse incidunt sed aliquid beatae repellendus laboriosam nesciunt saepe veniam rerum?</p>
                 </div>
             </div>
