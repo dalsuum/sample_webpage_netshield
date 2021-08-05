@@ -36,7 +36,7 @@
             </div> <!-- navigation_left_end -->
 
             <div class="col-md-2 navagation_logo"> <!-- navigation_icon_start -->
-                    <img src="img/logo.png" alt="logo">
+                    <img src="img/icon.ico" alt="logo">
             </div> <!-- navigation_icon_end -->
 
             <div class="col-md-5 navigation_right">
