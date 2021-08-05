@@ -8,6 +8,7 @@
     <h2>Welcome <?php echo $pageTitle; ?></h2>
     <!-- Main Contect -->
     <div class="container">
+    
         <div class="row">
             <div class="col-md-4">
                 <div class="content_div">

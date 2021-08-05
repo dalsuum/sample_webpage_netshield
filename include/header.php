@@ -65,3 +65,9 @@
     <!-- Clear Line -->
     <div class="clear"></div> 
 </header>
+
+<div id="child1">
+        <p>
+            DevOps tutorials are avaiable now!
+        </p>
+    </div>
