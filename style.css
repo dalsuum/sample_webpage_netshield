@@ -284,7 +284,7 @@ footer {
   height: fit-content;
 
   position: relative;
-  animation: myfirst 5s 2;
+  animation: myfirst 5s 1;
   animation-direction: alternate;
 }
 
