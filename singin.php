@@ -5,14 +5,27 @@
     include("include/header.php"); 
     ?>
 
-<h2>Welcome <?php echo $pageTitle; ?></h2>        
-<!--Main Content-->
-<div class="container">
+<h2>  Welcome <?php echo $pageTitle; ?></h2> 
 
-<div class="contact_login_div">
+<button  id="login_button" onClick="showDialog()">login?</button> 
+<p id="login_p">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo amet, consequatur fugit eligendi nam dolor alias minima delectus corrupti sed quod dolores voluptatibus sit consectetur quisquam quidem. Eveniet, obcaecati error!
+</p>
+
+
+
+<!--Main Content-->
+    <div  id="overlay" onClick="hideDialog()" >
+   
+    </div>
+     
+        <div id="dialog">
+
+            <legend>Singin<span onClick="hideDialog()">&times;</span> </legend>
+
                 <form id="contact_form" name="contact_form" action="#" method="POST">
                     
-                        <legend>Singin</legend>
+                       
                             <table >
                                 
                                 <tr class="button_tr">
@@ -48,11 +61,19 @@
                                     </td>
                                 </tr>
                             </table>
-                                            
-                </form>
-            </div>  
-
-</div>
+            </form>
+        </div>  
+    
+    <script>
+        function showDialog() {
+        document.getElementById("overlay").style.display = "block";
+        document.getElementById("dialog").style.display = "block";
+        }
+        function hideDialog() {
+        document.getElementById("overlay").style.display = "none";
+        document.getElementById("dialog").style.display = "none";
+        }
+    </script>
   
   
  <?php include("include/footer.php"); ?>    

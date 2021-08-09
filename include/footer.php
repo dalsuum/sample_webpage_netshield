@@ -1,9 +1,10 @@
 
     <footer>
-    <div class="clear"></div>
+        <div class="clear"></div>
+    <div class="container">    
         <div class="row footer_div">
             <div class="col-md-4 footer_services">
-            <ul class="footer_menu">
+                <ul class="footer_menu">
                     <li>
                         DevOps
                     </li>
@@ -37,6 +38,7 @@
                 </ul>
             </div>
         </div>     
+    </div>
     </footer>
 </body>
 </html>
